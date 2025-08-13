@@ -1,0 +1,44 @@
+
+# === Python cache ===
+__pycache__/
+*.py[cod]
+*.so
+
+# === Environment ===
+.env
+.venv/
+env/
+venv/
+.ipynb_checkpoints/
+
+# === OS files ===
+.DS_Store
+Thumbs.db
+
+# === Checkpoints & logs ===
+checkpoints/
+*.pth
+*.pt
+*.ckpt
+*.log
+
+# === Dataset & processed files ===
+data/raw/
+data/processed/
+data/splits/
+*.npy
+*.npz
+*.zip
+*.tar
+*.tar.gz
+
+# === Large media files ===
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.wav
+
+# === Temp files ===
+tmp/
+temp/
